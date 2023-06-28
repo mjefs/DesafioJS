@@ -1,0 +1,28 @@
+let numberOne = prompt("Digíte o primeiro número ")
+let numberTwo = prompt("Digíte o segundo número ")
+
+let calculoSum = Number(numberOne) + Number(numberTwo)
+let calculoSub = Number(numberOne) - Number(numberTwo)
+let calculoMul = Number(numberOne) * Number(numberTwo)
+let calculoDiv = Number(numberOne) / Number(numberTwo)
+let calculoRes = Number(numberOne) % Number(numberTwo)
+
+alert(` A soma dos dois números é: ${calculoSum}`)
+alert(` A subtração dos dois números é: ${calculoSub}`)
+alert(` A multiplicação dos dois números é ${calculoMul}`)
+alert(` A divisão dos dois números é ${calculoDiv} `)
+alert(` O resto da divisão dos dois números é: ${calculoRes} `)
+
+
+
+if(calculoSum === 2) {
+  alert(`A soma dos dois números é par: ${calculoSum}`)
+} else {
+  alert(`A soma dos dois números é impar: ${calculoSum}`)
+}
+
+
+if(numberOne = numberTwo){
+  alert('Os números inseridos são iguais')
+} else {
+  alert('Os números inseridos são diferentes')
